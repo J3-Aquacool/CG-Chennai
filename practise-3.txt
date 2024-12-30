@@ -1,0 +1,15 @@
+Write a class Customer with the following data members,
+String : custId
+String : name
+Address : address
+	Write a parameterized constructor which takes custId , name and address as input and assigns the same to the instance variables and write getter methods for all the instance variables.
+Write a class Address with the following data members,
+String : addr1
+String : addr2
+String : city
+int : pin
+	Write the respective setter and getter methods.
+Write a class RegCustomer which extends from the class Customer and has the instance variable 
+	double : fees.
+	Write a appropriate parameterized constructor and call the base class constructor.
+In the main create an instance of the class RegCustomer by passing the values and display the same.

@@ -1,0 +1,6 @@
+1.
+
+Write a class Rectangle with data members, double length and double breadth. Write a parameterized constructor which takes the length and breadth as parameters and assigns it to the instance variables. Write a method area() which calculates the area and returns the same.
+
+2.
+Write a class InterestCalculator with data members, double principle , int time , double intRate. Write a parameterized constructor which takes principle and time. The intRate has to be calculated in the constructor based on the time, if time is >= 5 the rate is 10% else 12%. Write a method getInterest() which calculates the interest and returns the same. Test the code.

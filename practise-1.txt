@@ -1,0 +1,22 @@
+Create a class Employee with the following data members and methods 
+Data 
+empID : string
+empName : string
+address : Address
+Methods
+Set methods and get methods for the data members
+The class Address has the following
+Data 
+addr1 : string 
+addr2 : string 
+city : string 
+pin : int 
+Methods 
+set and get methods 
+Write a class EmployeeDemo with a main and two methods
+storeData() which takes the Employee object as an argument 
+Accepts user input for employee data and sets the data on the object 
+showData() which takes an Employee object as the argument and displays the data from the object
+Create an instance of the Employee object and pass the same to the storeData() and showData()
+
+
