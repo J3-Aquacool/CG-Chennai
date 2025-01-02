@@ -3,47 +3,33 @@ class Cdemo
 {
 public static void main(String a[])
 {
-// lets create a List
-ArrayList ref=new ArrayList();
-System.out.println(ref.size());
-ref.add("Rumysia");
-ref.add(new String("Rumysia"));
-ref.add(new Integer(2025));
-ref.add(56666.78f);
-ref.add(true);
-ref.add('A');
-ref.set(2,"Shwetha");
-System.out.println(ref.size());
-System.out.println(ref.get(2));
-// Check with Vector
-Vector v=new Vector();
-System.out.println("Initial Capacity of Vector:"+v.capacity());
-v.add("1");
-v.add("1");
-v.add("1");
-v.add("1");
-v.add("1");
-v.add("1");
-v.add("1");
-v.add("1");
-v.add("1");
-v.add("1");
-v.add("1");
-System.out.println("Capacity of Vector:"+v.capacity());
-// Lets create another ArrayList
-List ref1=new ArrayList();
-ref1.add(new Integer(1999));
-ref1.add(false);
-ref1.add('B');
-// Adding one colllection another collection
-// also look into methods like addAll(),containsAll() for Collection
-ref1.add(ref);
-// After adding one collection another collection
-System.out.println(ref1);
+//  avoid duplicate value
+// sorting 
+// lets create a Set
+Set tree=new TreeSet();
+tree.add("Z");
+tree.add("K");
+tree.add("l");
+tree.add("a");
+tree.add("K");
+tree.add(10);
+
+System.out.println("Elements in treeset:"+tree);
+
+Set hash=new HashSet(15); 
+hash.add("Z");
+hash.add("K");
+hash.add("l");
+hash.add("a");
+hash.add("K");
+hash.add(null);
+hash.add(null);
+hash.add(10);
+System.out.println("Elements in hashset:"+hash);
+// Sorting is based on the internal hashing/hashcode generated
 
 
-
-
+// App--------------> frequently
 
 }
 
