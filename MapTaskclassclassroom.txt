@@ -1,0 +1,10 @@
+
+Task:
+
+1. Create a Map to Store Employee Objects and display ony the id and name of the Employee .
+class :Employee
+attributes: eid,ename,salary,desg
+
+2. Continue the above by adding a functionaly to only search and display those employee whose salary is between then 20000 -45000
+
+	
